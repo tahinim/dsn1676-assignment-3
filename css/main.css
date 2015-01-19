@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+*, *:;before, *:;after {
+    box-sizing: inherit;
+}
+
+.asteroid {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    background-image:url(../asteroids-images/asteroid.svg);
+    animation: box-rotate 5s linear infinite;
+}
+
+@keyframes box-rotate {
+    
+    0%{
+        
+  transform: rotate(0deg);
+    }
+        
+100% {
+  transform: rotate(360deg);
+    
+}
+
+}html {
+    box-sizing: border-box;
+}
+
+
+*, *:;before, *:;after {
+    box-sizing: inherit;
+}
+
+
+@keyframes box-rotate {
+    
+    0%{
+        
+  transform: rotate(0deg);
+    }
+        
+100% {
+  transform: rotate(360deg);
+    
+}
+
+}
