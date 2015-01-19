@@ -16,7 +16,7 @@ html {
     width: 250px;
     height: 250px;
     background-image:url(../asteroids-images/asteroid.svg);
-    animation: box-rotate 5s linear infinite;
+    animation: box-rotate 6s linear infinite alternate;
 }
 
 @keyframes box-rotate {
@@ -54,3 +54,4 @@ html {
 }
 
 }
+
