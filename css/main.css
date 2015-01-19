@@ -55,3 +55,40 @@ html {
 
 }
 
+.ship {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 200px;
+    left: 60%;
+    animation: spaceship 7s ease-in-out infinite;
+    background-image:url(../asteroids-images/ship.svg);
+}   
+    
+@keyFrames spaceship{
+    0% {
+    transform: translateX(100px);
+    }
+    50% {
+    transform: translateX(200px);
+}
+    70% {
+    transform: translateY(200px);
+    }
+    
+    81.74% {
+    transform: translateY(400px);
+    
+    }
+    
+    92% {
+        transform: translateX(300px);
+    }
+    
+    100% {
+        transform: translateX(400px);
+    }
+}
+}
+}
+        
